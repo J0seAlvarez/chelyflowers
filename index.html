@@ -42,6 +42,7 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--bg) 
 .header-in{max-width:1180px;margin:0 auto;padding:.7rem 1rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);margin-right:auto}
 .brand-mark{width:42px;height:42px;border-radius:50%;background:var(--rose);color:#fff;display:grid;place-items:center;font-size:1.3rem;flex:none}
+.brand-logo{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:none}
 .brand b{font-family:"Playfair Display",serif;font-size:1.35rem;display:block;line-height:1}
 .brand small{color:var(--muted);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;font-weight:700}
 nav.main{display:flex;gap:.15rem;flex-wrap:wrap}
@@ -151,7 +152,7 @@ footer{border-top:1px solid var(--line);background:var(--surface);margin-top:2re
 <header>
   <div class="header-in">
     <a class="brand" href="#home" data-nav="home" aria-label="Chely Flowers — Home">
-      <span class="brand-mark" aria-hidden="true">🌷</span>
+      <img class="brand-logo" src="images/logo.png" alt="" aria-hidden="true" width="52" height="52">
       <span><b>Chely Flowers</b><small data-i18n="brandTag">Flowers &amp; Personalized Gifts</small></span>
     </a>
     <button class="burger" id="burger" aria-expanded="false" aria-controls="mainNav">☰ <span data-i18n="menu">Menu</span></button>
