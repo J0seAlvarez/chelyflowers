@@ -130,6 +130,8 @@ textarea{min-height:130px}
 footer{border-top:1px solid var(--line);background:var(--surface);margin-top:2rem}
 .foot{max-width:1180px;margin:0 auto;padding:2rem 1rem;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:1.5rem}
 .foot h3{font-size:1.05rem;margin-bottom:.5rem}
+.foot h3{display:flex;align-items:center;gap:.5rem}
+.foot-logo{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none}
 .foot ul{list-style:none;padding:0;margin:0;display:grid;gap:.35rem}
 .foot button{background:none;border:0;padding:0;font:inherit;color:var(--rose);cursor:pointer;font-weight:700;text-align:left}
 .foot p{color:var(--muted);font-size:.93rem}
@@ -428,7 +430,7 @@ footer{border-top:1px solid var(--line);background:var(--surface);margin-top:2re
 
 <footer>
   <div class="foot">
-    <div><h3>🌷 Chely Flowers</h3><p data-i18n="footAbout">Fresh flowers (from December 1) and personalized gifts — photo mugs, tumblers, tote bags, gift sets and diaper cakes. Service in English &amp; Spanish.</p><p style="margin-top:.7rem;line-height:1.9">📞 <a href="tel:+17077521700">707-752-1700</a><br>💬 <a href="https://wa.me/17077521700" target="_blank" rel="noopener">WhatsApp</a> · ✉️ <a href="mailto:7077521700a@gmail.com">7077521700a@gmail.com</a><br><span data-i18n="footMugPrice">Photo mugs $14.95</span></p></div>
+    <div><h3><img class="foot-logo" src="images/logo.png" alt="" aria-hidden="true" width="36" height="36"> Chely Flowers</h3><p data-i18n="footAbout">Fresh flowers (from December 1) and personalized gifts — photo mugs, tumblers, tote bags, gift sets and diaper cakes. Service in English &amp; Spanish.</p><p style="margin-top:.7rem;line-height:1.9">📞 <a href="tel:+17077521700">707-752-1700</a><br>💬 <a href="https://wa.me/17077521700" target="_blank" rel="noopener">WhatsApp</a> · ✉️ <a href="mailto:7077521700a@gmail.com">7077521700a@gmail.com</a><br><span data-i18n="footMugPrice">Photo mugs $14.95</span></p></div>
     <div><h3 data-i18n="footShop">Shop</h3><ul>
       <li><button data-nav="flowers" data-i18n="navFlowers">Flowers</button></li>
       <li><button data-nav="gifts" data-i18n="navGifts">Gifts</button></li>
